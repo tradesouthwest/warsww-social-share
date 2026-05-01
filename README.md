@@ -2,6 +2,8 @@
 High-performance social sharing module with integrated WarsWW Intelligence telemetry.
 
 ## Restucture Path
+
+```
 warsww-social-share/
 ├── warsww-social-share.php   (Main Plugin File / Header)
 ├── readme.txt                (For WP/CP compatibility)
@@ -12,7 +14,7 @@ warsww-social-share/
 │   ├── css/                  (Minified CSS)
 │   └── svg/                  (The Butterfly and others)
 └── languages/                (Pot files for internationalization)
-
+```
 
 
 TBD/ignore ---
