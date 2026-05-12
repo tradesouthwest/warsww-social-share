@@ -18,6 +18,7 @@ function warsww_add_social_meta_tags() {
             $img_height = $img_data[2];
 
             // Standard Open Graph (Facebook, LinkedIn, BlueSky)
+            // The following required properties are missing: fb:app_id
             echo '<meta property="og:image" content="' . $img_url . '" />';
             echo '<meta property="og:image:width" content="' . $img_width . '" />';
             echo '<meta property="og:image:height" content="' . $img_height . '" />';
