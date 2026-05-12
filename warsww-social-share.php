@@ -7,6 +7,10 @@ Author: Gemini for WarsWW
 */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
+
+/**
+ * @see: https://developers.facebook.com/docs/sharing/webmasters/#markup
+ */
 function warsww_add_social_meta_tags() {
     if (is_single()) {
         global $post;
